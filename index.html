@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aesthetic Ann</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body class="locked">
+
+
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="sidebar" id="sidebar">
+  
+  <button class="sidebar-close" id="sidebarClose">
+    <i class="fas fa-times"></i>
+  </button>
+
+  <ul class="sidebar-menu">
+    <li>
+      <a href="#home" class="sidebar-link">
+        <span class="menu-number">01</span>
+        HOME
+      </a>
+    </li>
+    <li>
+      <a href="#about" class="sidebar-link">
+        <span class="menu-number">02</span>
+        ABOUT
+      </a>
+    </li>
+    <li>
+      <a href="#projects" class="sidebar-link">
+        <span class="menu-number">03</span>
+        PROJECT
+      </a>
+    </li>
+    <li>
+      <a href="#why" class="sidebar-link">
+        <span class="menu-number">04</span>
+        SKILLS
+      </a>
+    </li>
+    <li>
+      <a href="#foooter" class="sidebar-link">
+        <span class="menu-number">05</span>
+        CONTACT
+      </a>
+    </li>
+  </ul>
+
+  <div class="sidebar-social">
+    <a href="https://wa.me/6235701868" target="_blank" title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="mailto:annmariyarosepereira@gmail.com" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/ann-mariya-rose-pereira/" target="_blank" title="LinkedIn">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://behance.net/yourprofile" target="_blank" title="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+  </div>
+
+</div>
+
+
+<button class="sidebar-toggle-btn" id="sidebarToggleBtn">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+
+
+<div id="lock-screen">
+
+  <video class="bg-video" autoplay muted loop playsinline>
+    <source src="images/video1.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div id="video-unlock-area"></div>
+
+</div>
+
+
+
+<nav id="navbar" style="display:none;">
+
+  <div class="nav-container">
+
+    <div class="logo">Aesthetic Ann</div>
+
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#why" class="nav-link">Skills</a></li>
+      <li><a href="#footer" class="nav-link">Contact</a></li>
+    </ul>
+
+    
+    <div class="menu-toggle" id="navbarMenuToggle">☰</div>
+
+  </div>
+
+</nav>
+
+
+<div id="main-content" style="display:none;">
+
+ 
+
+  <section id="home" class="hero"></section>
+
+  
+  <section id="about" class="about-section">
+
+    <div class="about-container">
+
+      <h2>ABOUT ME</h2>
+
+      <p class="intro">
+        I'm <strong>Ann Mariya Rose Pereira</strong> — where data meets design,
+        code meets<br> creativity, and technology becomes expression.
+      </p>
+
+      <p class="desc">
+        A Computer Science student specializing in Data Science, a growing
+        full-stack developer, and <br> a digital marketing enthusiast driven by
+        curiosity and purpose. My work blends analytical thinking with aesthetic
+        sensibility to create digital experiences that are both meaningful and
+        memorable.
+        <br><br>
+        I don't just build solutions — I design how they are understood,
+        experienced, and remembered.
+      </p>
+
+    </div>
+
+  </section>
+  
+  <section id="call" class="call-section">
+
+    <div class="call-container">
+
+      <h2>READY TO WORK WITH ME?</h2>
+
+      <p class="call-main">
+        I'm looking for opportunities where creativity meets technology —
+        roles that challenge me, grow me, and allow me to build meaningful
+        digital experiences.
+      </p>
+
+      <p class="call-sub">
+        Whether it's development, data-driven solutions, or digital
+        strategy, I bring curiosity, precision, and passion to everything
+        I create.
+      </p>
+
+      <a href="#footer" class="call-btn">
+        LET'S CONNECT
+      </a>
+
+    </div>
+
+  </section>
+
+  
+
+  <section id="projects" class="projects-section">
+
+    <h2 class="section-title">MY PROJECTS</h2>
+
+    <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+
+        
+
+        <div class="carousel-item active">
+          <div class="project-card" data-category="datascience">
+
+            <img src="images/img6.png" alt="AI Job Market" class="project-img">
+
+            <div class="project-overlay">
+              <h3>Global AI & Data Job Market Intelligence</h3>
+              <p>Power BI dashboard analyzing global AI job trends, salaries,
+              and skill demand for data-driven insights.</p>
+              <p class="tech">Power BI • DAX • Power Query • Excel</p>
+              <a href="https://github.com/annmariyarosepereira/Project-AI-Data-Job-Market-Insights-Dashboard" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
+       
+
+        <div class="carousel-item">
+          <div class="project-card" data-category="datascience">
+
+            <img src="images/img7.png" alt="Customer Segmentation" class="project-img">
+
+            <div class="project-overlay">
+              <h3>Customer Segmentation for Business Insights</h3>
+              <p>Machine learning clustering model identifying customer groups
+              for targeted marketing strategies.</p>
+              <p class="tech">Python • Scikit-learn • Pandas • Power BI</p>
+              <a href="https://github.com/annmariyarosepereira/DataMinds-ML-PowerBI" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
+        
+        <div class="carousel-item">
+          <div class="project-card" data-category="datascience">
+
+            <img src="images/img8.png" alt="GASP" class="project-img">
+
+            <div class="project-overlay">
+              <h3>Global Attention Shift Predictor (GASP)</h3>
+              <p>Predictive analytics system forecasting human digital attention
+              trends using multi-platform data.</p>
+              <p class="tech">Python • Pandas • Scikit-learn • Streamlit</p>
+              <a href="https://github.com/annmariyarosepereira/global-attention-shift-predictor" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
+       
+        <div class="carousel-item">
+          <div class="project-card" data-category="web">
+
+            <img src="images/img9.png" alt="Photography Bot" class="project-img">
+
+            <div class="project-overlay">
+              <h3>Photography Guidance Bot</h3>
+              <p>AI assistant providing photography suggestions based on
+              image analysis and weather conditions.</p>
+              <p class="tech">Python • Tkinter • Pillow • Matplotlib</p>
+              <a href="https://github.com/annmariyarosepereira/Photography-Guidance-Bot-AI" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
+       
+
+        <div class="carousel-item">
+          <div class="project-card" data-category="analytics">
+
+            <img src="images/img10.png" alt="Ecommerce Dashboard" class="project-img">
+
+            <div class="project-overlay">
+              <h3>E-Commerce Customer Behavior Dashboard</h3>
+              <p>Interactive Excel dashboard analyzing customer behavior,
+              spending patterns, and segments.</p>
+              <p class="tech">Excel • PivotTables • Charts • Slicers</p>
+              <a href="https://github.com/annmariyarosepereira/ecommerce-return-analysis" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
+        
+
+        <div class="carousel-item">
+          <div class="project-card" data-category="marketing">
+
+            <img src="images/img11.png" alt="Jewelry Store" class="project-img">
+
+            <div class="project-overlay">
+              <h3>Aesthetic Ann — Jewelry E-commerce</h3>
+              <p>Shopify store showcasing anti-tarnish jewelry with SEO,
+              analytics, and digital marketing strategy.</p>
+              <p class="tech">Shopify • SEO • GA4 • Social Media Marketing</p>
+              <a href="GITHUB_LINK" target="_blank" class="github-btn">View on GitHub</a>
+            </div>
+
+          </div>
+        </div>
+
+        
+
+        <div class="carousel-item">
+          <div class="project-card" data-category="web">
+
+            <img src="images/img12.png" alt="Influvour" class="project-img">
+
+            <div class="project-overlay">
+              <h3>Influvour — Creative Growth Agency</h3>
+              <p>Responsive agency website designed for branding,
+              marketing services, and client engagement.</p>
+              <p class="tech">HTML • CSS • Bootstrap • JavaScript</p>
+              <a href="YOUR_INFLUVOUR_GITHUB_LINK"
+                 target="_blank"
+                 class="github-btn">
+                 View on GitHub
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      
+
+      <button class="carousel-control-prev"
+              type="button"
+              data-bs-target="#projectCarousel"
+              data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next"
+              type="button"
+              data-bs-target="#projectCarousel"
+              data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+
+  </section>
+  
+
+  <section id="why" class="why-section">
+
+  <div class="why-container">
+
+    <h2>WHY WORK WITH ME?</h2>
+
+  
+
+    <div class="why-item">
+      <span class="num">01</span>
+      <h3>MULTIDISCIPLINARY ENGINEER</h3>
+
+      <p>
+        I bring together expertise from Computer Science, Data Science, and Digital Marketing — a combination that allows me to see both the technical architecture and the business impact of a solution. Instead of focusing narrowly on one domain, I connect development, analytics, and strategy to create products that are not only functional but meaningful.
+      </p>
+      <p>
+        This cross-disciplinary perspective helps me communicate effectively with designers, developers, analysts, and stakeholders alike. Whether building a system from scratch or improving an existing one, I aim to deliver solutions that perform well technically while aligning with real-world objectives and user needs.
+      </p>
+    </div>
+
+    
+
+    <div class="why-item">
+      <span class="num">02</span>
+      <h3>DATA-DRIVEN DECISION MAKER</h3>
+
+      <p>
+        I rely on evidence, not assumptions. My work in analytics, machine learning, and dashboard development has trained me to interpret data, identify patterns, and translate insights into actionable strategies.
+      </p>
+      <p>
+        From customer segmentation to job market intelligence dashboards, I design solutions that support informed decision-making rather than guesswork. This mindset ensures that every feature, improvement, or recommendation is grounded in measurable outcomes, making my contributions both reliable and scalable.
+      </p>
+    </div>
+
+
+
+    <div class="why-item">
+      <span class="num">03</span>
+      <h3>FULL-STACK CREATOR</h3>
+
+      <p>
+        I understand how systems function end-to-end — from user interface to underlying logic. This enables me to design experiences that are intuitive on the surface while remaining robust underneath.
+      </p>
+      <p>
+        Rather than treating front-end and back-end concerns as separate worlds, I approach development holistically. My goal is to build digital products that are efficient, maintainable, and centered around user experience, ensuring that technology serves people — not the other way around.
+      </p>
+    </div>
+
+
+    <div class="why-item">
+      <span class="num">04</span>
+      <h3>DIGITAL STRATEGIST WITH TECH SKILLS</h3>
+
+      <p>
+        Beyond coding, I understand how technology fits into broader business and marketing ecosystems. My experience with SEO, analytics tools, and digital campaigns allows me to evaluate projects not only from a technical standpoint but also from a growth perspective.
+      </p>
+      <p>
+        This means I can help create solutions that attract users, retain engagement, and deliver measurable value. By combining technical execution with strategic thinking, I aim to build products that succeed in real markets, not just in theory.
+      </p>
+    </div>
+
+ 
+
+    <div class="why-item">
+      <span class="num">05</span>
+      <h3>CREATIVE + ANALYTICAL BALANCE</h3>
+
+      <p>
+        I value both aesthetics and functionality. A product should work flawlessly, but it should also feel intuitive, engaging, and thoughtfully designed.
+      </p>
+      <p>
+        My approach blends structured problem-solving with creative thinking, allowing me to produce solutions that are efficient yet distinctive. Whether designing interfaces, visualizations, or systems, I strive for clarity, usability, and elegance — ensuring that technology enhances human experience rather than complicating it.
+      </p>
+    </div>
+
+    
+
+    <div class="why-item">
+      <span class="num">06</span>
+      <h3>ADAPTIVE AND CONTINUOUS LEARNER</h3>
+
+      <p>
+        Technology evolves rapidly, and I actively embrace that change. I continuously expand my skill set, explore new tools, and challenge myself with unfamiliar problems to stay relevant and effective.
+      </p>
+      <p>
+        This adaptability allows me to contribute in dynamic environments where requirements shift and innovation is constant. Instead of resisting complexity, I view it as an opportunity to grow and deliver stronger solutions over time.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<footer id="footer" class="footer-section">
+  
+  <div class="footer-content">
+    
+    <div class="footer-cta">
+      <h2>Let’s Break the Ordinary</h2>
+      <p class="cta-text">
+        Ready to bring your ideas to life? Whether it's development, analytics, 
+        or digital strategy — let's create something meaningful together.
+      </p>
+      
+    </div>
+
+
+    <div class="footer-quote">
+      <div class="quote-mark">"</div>
+      <p class="quote-text">I'm so competent I can afford to be unique.</p>
+      <p class="quote-author">Ann Mariya Rose Pereira</p>
+    </div>
+
+    
+    <div class="footer-top">
+      
+      
+      <div class="footer-col">
+        <h3 class="footer-logo">Aesthetic Ann</h3>
+        <p class="footer-tagline">
+          Where data meets design, code meets creativity, and technology becomes expression.
+        </p>
+      </div>
+
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#why">Why Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+
+  <li><a href="#projects" onclick="filterProjects('datascience')">
+      Data Science
+  </a></li>
+
+  <li><a href="#projects" onclick="filterProjects('web')">
+      Web Development
+  </a></li>
+
+  <li><a href="#projects" onclick="filterProjects('marketing')">
+      Digital Marketing
+  </a></li>
+
+  <li><a href="#projects" onclick="filterProjects('analytics')">
+      Analytics
+  </a></li>
+
+
+</ul>
+       
+      </div>
+
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/ann-mariya-rose-pereira/" target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/annmariyarosepereira" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://instagram.com/yourprofile" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="mailto:annmariyarosepereira@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://wa.me/6235701868" target="_blank" title="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+        <p class="footer-email">
+          <i class="fas fa-envelope"></i> annmariyarosepereira@gmail.com
+        </p>
+        <p class="footer-phone">
+          <i class="fas fa-phone"></i> +91 6235701868
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Aesthetic Ann. All Rights Reserved.</p>
+      <p>Designed & Developed with <i class="fas fa-heart"></i> by Ann Mariya Rose Pereira</p>
+    </div>
+
+  </div>
+
+</footer>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</div>
+
+
+
+<script>
+
+const unlockArea = document.getElementById("video-unlock-area");
+const lockScreen = document.getElementById("lock-screen");
+const mainContent = document.getElementById("main-content");
+const navbar = document.getElementById("navbar");
+
+
+
+unlockArea.addEventListener("click", () => {
+
+  lockScreen.style.opacity = "0";
+  lockScreen.style.transform = "scale(1.05)";
+
+  setTimeout(() => {
+
+    lockScreen.style.display = "none";
+    mainContent.style.display = "block";
+    navbar.style.display = "block";
+    
+   
+    document.body.classList.remove('locked');
+
+    document.body.style.overflow = "auto";
+
+  }, 900);
+
+});
+
+
+
+const sidebarToggleBtn = document.getElementById('sidebarToggleBtn');
+const sidebar = document.getElementById('sidebar');
+const sidebarClose = document.getElementById('sidebarClose');
+const sidebarOverlay = document.getElementById('sidebarOverlay');
+const sidebarLinks = document.querySelectorAll('.sidebar-link');
+
+
+sidebarToggleBtn.addEventListener('click', () => {
+  sidebar.classList.add('active');
+  sidebarOverlay.classList.add('active');
+  sidebarToggleBtn.classList.add('active');
+  document.body.style.overflow = 'hidden';
+});
+
+
+function closeSidebar() {
+  sidebar.classList.remove('active');
+  sidebarOverlay.classList.remove('active');
+  sidebarToggleBtn.classList.remove('active');
+  document.body.style.overflow = 'auto';
+}
+
+sidebarClose.addEventListener('click', closeSidebar);
+sidebarOverlay.addEventListener('click', closeSidebar);
+
+
+sidebarLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    closeSidebar();
+  });
+});
+
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && sidebar.classList.contains('active')) {
+    closeSidebar();
+  }
+});
+
+
+const navbarMenuToggle = document.getElementById('navbarMenuToggle');
+const navLinks = document.querySelector('.nav-links');
+
+if (navbarMenuToggle) {
+  navbarMenuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    navbarMenuToggle.classList.toggle('active');
+  });
+}
+
+function filterProjects(category){
+
+  const projects = document.querySelectorAll('.project-card');
+
+  projects.forEach(project => {
+
+    if(project.dataset.category === category){
+      project.style.display = "block";
+    } else {
+      project.style.display = "none";
+    }
+
+  });
+
+}
+
+</script>
+
+</body>
+</html>
